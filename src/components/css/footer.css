@@ -1,0 +1,32 @@
+footer *{
+    /* font-family:Bahnschrift SemiLight; */
+    /* Bahnschrift SemiLight; */
+    color:  #041a2e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; */
+}
+
+footer h3{
+    font-family: Broadway;
+    color:black;
+}
+.footer-content{
+    margin: 3rem;
+    width:20%
+}
+.footer-link{
+    margin: 5px;
+}
+
+@media only screen and(max-width:768px){
+    .footer-main{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+.footer-content{
+    text-align:center;
+    margin:2rem;
+    width:80%;
+}
+}
